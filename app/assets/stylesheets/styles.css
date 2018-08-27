@@ -17,13 +17,16 @@ h1 {
 
 section {
   text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 ul {
   padding: 10px 10px;
   margin-top: 4%;
-  margin-bottom: 0%;
+  margin-bottom: 0;
 }
+
 li {
   list-style-type: none;
   padding: 2% 2%;
@@ -34,7 +37,7 @@ li {
 .song-cube {
   display: inline-block;
   text-align: center;
-  vertical-align: top;
+  vertical-align: center;
   background: #DFEBE4;
   font-family: 'Raleway';
   overflow-x: scroll;
