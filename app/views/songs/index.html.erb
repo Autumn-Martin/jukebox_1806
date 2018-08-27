@@ -1,8 +1,14 @@
-<h1>All Songs</h1>
-
-<% @songs.each do |song| %>
-  <ul>
-    <li>Title: <%= song.title %></li>
-    <li>Play Count: <%= song.play_count %></li>
-  </ul>
-<% end %>
+<body>
+  <header>
+    <h1>All Songs</h1>
+  </header>
+  <section>
+    <% @songs.each do |song| %>
+        <ul class="song-cube">
+          <li>Title: <%= song.title %></li>
+          <li>Artist: <%= song.artist.name %></li>
+          <li>Play Count: <%= song.play_count %></li>
+        </ul>
+    <% end %>
+  </section>
+</body>
